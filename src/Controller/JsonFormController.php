@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class JsonFormController extends AbstractController
 {
     /**
-     * @Route("/json/form", name="app_json_form")
+     * @Route("/", name="app_json_form")
      */
     public function index(): JsonResponse
     {
